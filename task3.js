@@ -8,8 +8,8 @@ function seleksiNilai(nilaiAwal, nilaiAkhir, dataArray) {
         console.log("Jumlah angka dalam dataArray harus lebih dari 5")
         return;
     }
-    const seleksiNilai = dataArray.filter(function (item) {
-        return item > nilaiAwal && item < nilaiAkhir;
+    const seleksiNilai = dataArray.filter(function (dataArray) {
+        return dataArray > nilaiAwal && dataArray < nilaiAkhir;
     });
 
     if (seleksiNilai.length === 0) {
